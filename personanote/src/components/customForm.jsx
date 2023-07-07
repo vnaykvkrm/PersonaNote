@@ -1,8 +1,17 @@
 import React from 'react'
 
 function customForm() {
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault()
+        console.log('Form submitted')
+    }
   return (
-    <div>customForm</div>
+    <form className='persona_note'
+    onSubmit={handleFormSubmit}
+    >
+
+    </form>
   )
 }
 
