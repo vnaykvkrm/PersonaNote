@@ -1,6 +1,6 @@
 import React from 'react'
 
-function customForm() {
+function CustomForm() {
 
     const handleFormSubmit = (e) => {
         e.preventDefault()
@@ -10,9 +10,12 @@ function customForm() {
     <form className='persona_note'
     onSubmit={handleFormSubmit}
     >
+        <div className="wrapper">
+
+        </div>
 
     </form>
   )
 }
 
-export default customForm
+export default CustomForm
