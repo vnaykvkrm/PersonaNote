@@ -14,13 +14,17 @@ function CustomForm() {
             <input type="text" 
             id='task'
             className='input'
-            value={task}
-            onInput={(e) => setTask(e.target.value)}
+            //value={task}
+            //onInput={(e) => setTask(e.target.value)}
             required
             autoFocus
             maxLength={60}
-            placeholder='Enter a Persona Note(task)'
+            placeholder='Enter a Persona(task)'
             />
+            <label htmlFor="task" 
+            className='label'>
+                Enter Persona
+            </label>
 
         </div>
 
