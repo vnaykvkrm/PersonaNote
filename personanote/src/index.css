@@ -15,9 +15,3 @@ input,
 label{
     font: inherit;
 }
-
-:root{
-    --_hue:245;
-    --_size:1.8rem;
-    --_radius:0.2rem;
-}
