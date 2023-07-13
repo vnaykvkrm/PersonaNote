@@ -23,10 +23,6 @@ function CustomForm() {
             maxLength={60}
             placeholder='Enter a Persona(task)'
             />
-            <label htmlFor="task" 
-            className='label'>
-                Enter Persona
-            </label>
 
         </div>
 
