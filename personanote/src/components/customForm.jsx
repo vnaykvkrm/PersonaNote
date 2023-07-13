@@ -28,6 +28,12 @@ function CustomForm() {
 
         </div>
 
+        <button
+        className='btn'
+        aria-label='Add Persona'
+        type='submit'
+        ></button>
+
     </form>
   )
 }
