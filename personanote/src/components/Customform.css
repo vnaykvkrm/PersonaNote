@@ -1,4 +1,10 @@
-body{
-    height: 100%;
-    width: 100%;
+.btn{
+    max-width: fit-content;
+    display: flex;
+    place-items: center;
+    gap: 0.5em;
+    background-color: rgb(170, 113, 222);
+    color: antiquewhite;
+    padding: 0.5em;
+    border-radius: 4px;
 }
