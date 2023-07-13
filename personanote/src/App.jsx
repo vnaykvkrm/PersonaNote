@@ -1,6 +1,5 @@
 import React from 'react'
 import CustomForm from './components/customForm'
-import './App.css'
 
 function App() {
   return (
