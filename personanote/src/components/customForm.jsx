@@ -1,4 +1,5 @@
 import React from 'react'
+import {BeakerIcon} from '@heroicons/react/24/solid'
 
 function CustomForm() {
 
@@ -32,7 +33,9 @@ function CustomForm() {
         className='btn'
         aria-label='Add Persona'
         type='submit'
-        ></button>
+        >
+            <BeakerIcon className='h-6 w-6 text-blue-500'/>
+        </button>
 
     </form>
   )
