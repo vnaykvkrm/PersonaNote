@@ -2,30 +2,30 @@ import React, { useState } from 'react'
 import {BeakerIcon} from '@heroicons/react/24/solid'
 import '../components/CustomForm.css'
 
-function CustomForm({addTask}) {
+function CustomForm({addPersona}) {
 
-    const[task,setTask]=useState("");
+    const[persona,setPersona]=useState("");
 
     const handleFormSubmit = (e) => {
         e.preventDefault()
-        addTask(e)
-        setTask('')
+        addPersona(e)
+        setPersona('')
     }
   return (
     <form className='persona_note'
     onSubmit={handleFormSubmit}
     >
-        <p>{task}</p>
+        <p>{persona}</p>
         <div className="wrapper">
             <input type="text" 
-            id='task'
+            id='Persona'
             className='input'
-            value={task}
-            onInput={(e) => setTask(e.target.value)}
+            value={persona}
+            onInput={(e) => setPersona(e.target.value)}
             required
             autoFocus
             maxLength={60}
-            placeholder='Enter a Persona(task)'
+            placeholder='Enter a Persona(Persona)'
             />
 
         </div>
