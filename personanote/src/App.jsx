@@ -1,11 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import CustomForm from './components/customForm'
 
 function App() {
   const [count, setCount] = useState(0)
 
-  const addTask = (task) => {
-    console.log(task)
+  const addPersona = (persona) => {
+    console.log(persona)
   }
   return (
     <div className="App">
@@ -13,7 +13,7 @@ function App() {
         <h1> PERSONA NOTES</h1>
       </header>
 
-      <CustomForm addTask= {addTask}/>
+      <CustomForm addPersona= {addPersona}/>
     </div>
   )
 }

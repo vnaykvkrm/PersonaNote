@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import {BeakerIcon} from '@heroicons/react/24/solid'
 import '../components/CustomForm.css'
 
-function CustomForm() {
+function CustomForm({addTask}) {
 
     const[task,setTask]=useState("");
 
     const handleFormSubmit = (e) => {
         e.preventDefault()
+        addTask(e)
         setTask('')
     }
   return (
