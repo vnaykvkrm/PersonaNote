@@ -20,7 +20,6 @@ function CustomForm({addPersona}) {
     <form className='persona_note'
     onSubmit={handleFormSubmit}
     >
-        <p>{persona}</p>
         <div className="wrapper">
             <input type="text" 
             id='Persona'
