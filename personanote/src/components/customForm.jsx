@@ -8,7 +8,12 @@ function CustomForm({addPersona}) {
 
     const handleFormSubmit = (e) => {
         e.preventDefault()
-        addPersona(e)
+        addPersona(
+          {
+            name: persona,
+            completed: false,
+            id: Date.now() //This will give the millisecond value of current moment, which is useful as a unique id//
+          })
         setPersona('')
     }
   return (
