@@ -18,7 +18,7 @@ function App() {
       </header>
 
       <CustomForm addPersona= {addPersona}/>
-      {personas && <PersonaList/>}
+      {personas && <PersonaList personas={personas}/>}
     </div>
   )
 } 
