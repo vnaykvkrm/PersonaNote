@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import CustomForm from './components/customForm'
+import PersonaList from './components/PersonaList'
 
 function App() {
   const [personas, setPersonas] = useState([]);
