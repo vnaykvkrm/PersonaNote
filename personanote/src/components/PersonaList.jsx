@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PersonaList() {
+function PersonaList({personas}) {
   return (
     <div>PersonaList</div>
   )
