@@ -2,7 +2,15 @@ import React from 'react'
 
 function PersonaList({personas}) {
   return (
-    <div>PersonaList</div>
+    <ul className={styles.tasks}>
+      {personas.map((persona) => {
+        <personaItem
+          key={persona.id}
+          persona={persona}
+          />
+      })
+      }
+    </ul>
   )
 }
 
